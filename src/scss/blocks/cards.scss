@@ -1,0 +1,29 @@
+.card{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    background-color: var(--card-bg-color);
+    color:var(--letter-color);
+        
+    &-thanks{
+        display: none;
+        
+        
+    }
+}
+
+
+.card-remove{
+    display: none;
+}
+.card-add{
+    display: block;
+}
+
+// .input{
+//     display: none;
+// }

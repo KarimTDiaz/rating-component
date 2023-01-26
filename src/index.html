@@ -10,9 +10,83 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <main class="main">
+      <div id="card-rating" class="card card-rating">
+        <img
+          src="assets/images/icon-star.svg"
+          alt="Icono de estrella"
+          class="icon"
+        />
+        <h1 class="title">How did We do</h1>
+        <p class="text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <form id="form" class="numbers">
+          <input
+            class="input"
+            type="radio"
+            id="input-1"
+            name="points"
+            value="1"
+          />
+          <label class="input__label" for="input-1">1</label>
+
+          <input
+            class="input"
+            type="radio"
+            id="input-2"
+            name="points"
+            value="2"
+          />
+          <label class="input__label" for="input-2">2</label>
+
+          <input
+            class="input"
+            type="radio"
+            id="input-3"
+            name="points"
+            value="3"
+          />
+          <label class="input__label" for="input-3">3</label>
+
+          <input
+            class="input"
+            type="radio"
+            id="input-4"
+            name="points"
+            value="4"
+          />
+          <label class="input__label" for="input-4">4</label>
+
+          <input
+            class="input"
+            type="radio"
+            id="input-5"
+            name="points"
+            value="5"
+          />
+          <label class="input__label" for="input-5">5</label>
+          <div class="button">
+            <button class="button" id="submit">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+      <div id="card-thanks" class="card card-thanks">
+        <img
+          src="assets/images/illustration-thank-you.svg"
+          alt=""
+          class="image"
+        />
+        <p id="number-selected" class="text text-selected"></p>
+        <p class="title">Thank You!</p>
+        <p class="text">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+        <button class="button" id="come-back">COME BACK</button>
+      </div>
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
